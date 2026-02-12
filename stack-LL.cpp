@@ -22,6 +22,7 @@ void push(int value)
 	printf("%d pushed\n",nn->data);
 }
 
+//pop
 void pop() 
 {   if(top == NULL)
     printf("Stack is underflowing!!");
@@ -34,7 +35,7 @@ void pop()
 
 }
 
-
+//peek
 void peek()
 {   if(top == NULL)
     printf("Stack is empty!!");
@@ -45,6 +46,8 @@ void peek()
 	printf("%d is the top value\n",temp->data);
 }
 
+
+//display
 void display()
 {	 if(top == NULL)
     printf("Stack is empty!!");
@@ -107,3 +110,4 @@ default:
   
 
 }
+
